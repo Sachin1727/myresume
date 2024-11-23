@@ -1,0 +1,201 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background: #007acc;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li {
+    text-transform: uppercase;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+
+/* Intro Section */
+#intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background: #eaf6ff;
+}
+
+#intro .intro-content {
+    max-width: 50%;
+}
+
+#intro .highlight {
+    color: #007acc;
+}
+
+#intro .profile-img {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+/* About Section */
+#about {
+    padding: 20px;
+    background: #f9f9f9;
+}
+
+/* Resume Section */
+#resume {
+    padding: 20px;
+}
+
+.skills li {
+    display: inline-block;
+    background: #007acc;
+    color: white;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+}
+
+
+/* Bio-data Page Styling */
+#biodata {
+    padding: 20px;
+}
+
+.biodata-section {
+    background: #fff;
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.biodata-section h2 {
+    color: #007acc;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #007acc;
+    display: inline-block;
+}
+
+.biodata-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.biodata-section ul li {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.biodata-section ul li strong {
+    color: #333;
+    font-weight: bold;
+}
+
+
+/* Resume Page Styling */
+#resume {
+    padding: 20px;
+}
+
+.resume-section {
+    margin: 20px 0;
+    padding: 15px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.resume-section h2 {
+    margin-bottom: 10px;
+    color: #007acc;
+    border-bottom: 2px solid #007acc;
+    display: inline-block;
+}
+
+.resume-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.resume-section ul li {
+    margin: 10px 0;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills span {
+    background: #007acc;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Header Section Styling */
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #007acc;
+    color: white;
+}
+
+.site-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
