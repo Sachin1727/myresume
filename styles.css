@@ -199,3 +199,37 @@ nav ul li a {
     padding: 5px 10px;
 }
 
+/* Dark Mode */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+body.dark-mode nav ul li a {
+    color: #e0e0e0;
+}
+
+body.dark-mode nav ul li a.active {
+    background-color: #333;
+}
+
+body.dark-mode .resume-section {
+    background-color: #1e1e1e;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+/* Skill Badge Styling */
+.skill-badge {
+    background: #007acc;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    display: inline-block;
+    margin: 5px;
+    transition: background-color 0.3s;
+}
+
+.skill-badge:hover {
+    background-color: #005f99;
+}
